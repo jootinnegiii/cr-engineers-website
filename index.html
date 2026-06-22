@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>C.R. Engineers Technologies | Electrical, Fire &amp; Safety Engineering</title>
+  <meta name="description" content="C.R. Engineers Technologies — Electrical Solutions, Fire &amp; Safety Systems, Security Systems, Electrical Audits, and Facility Support Services." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <a href="#top" class="logo" aria-label="C.R. Engineers Technologies home">
+        <span class="logo__icon" aria-hidden="true">
+          <img class="logo__mark" src="Photos/cret.png" alt="C.R. Engineers Technologies logo" />
+        </span>
+        <span class="logo__text"><span class="logo__hope">C.R.</span><span class="logo__divider"></span><span class="logo__rise">ENGINEERS TECHNOLOGIES</span></span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="GST_DETAILS.pdf" target="_blank" rel="noopener">Gst Details</a>
+        <a href="#instruments">Instruments</a>
+      </nav>
+      <button type="button" class="menu-btn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <div class="mobile-nav" aria-hidden="true">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="GST_DETAILS.pdf" target="_blank" rel="noopener">Gst Details</a>
+      <a href="#instruments">Instruments</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="hero__phone-col">
+        <div class="phone">
+          <div class="phone__screen">
+            <div class="phone__header">
+              <span class="phone__logo-mini">C.R. ENGINEERS</span>
+              <span class="phone__menu-dots" aria-hidden="true">···</span>
+            </div>
+            <span class="badge">Company Profile</span>
+            <h2 class="phone__title">Safe, Reliable &amp; Cost-Effective Engineering</h2>
+            <div class="enquiry-card" id="enquiry">
+              <p class="enquiry-card__label">Request a callback</p>
+              <div class="form-wrap">
+                <form class="enquiry-form js-quote-form" novalidate>
+                  <input type="hidden" name="_subject" value="New quote request — Hero form" />
+                  <input type="hidden" name="_template" value="table" />
+                  <label><span>Name</span><input type="text" name="name" placeholder="Your name" required autocomplete="name" /></label>
+                  <label><span>Phone</span><input type="tel" name="phone" placeholder="+91-XXXXXXXXXX" required inputmode="numeric" minlength="10" maxlength="10" pattern="\d{10}" autocomplete="tel" /></label>
+                  <label><span>Service needed</span>
+                    <select name="service" required>
+                      <option value="Electrical Audit">Electrical Audit</option>
+                      <option value="Fire &amp; Safety">Fire &amp; Safety</option>
+                      <option value="Security Systems">Security Systems</option>
+                      <option value="AMC / Maintenance">AMC / Maintenance</option>
+                    </select>
+                  </label>
+                  <p class="form-error" role="alert" hidden></p>
+                  <button type="submit" class="btn btn--green btn--block js-submit-btn">GET A QUOTE</button>
+                </form>
+                <div class="form-success" aria-live="polite" hidden>
+                  <div class="form-success__icon" aria-hidden="true">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </div>
+                  <h3 class="form-success__title">Quote submitted!</h3>
+                  <p class="form-success__text">Thank you. We will reach out to you shortly.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__content-col">
+        <p class="hero__meta">Prepared by C.R. Engineers Technologies · 21 May 2026</p>
+        <h1 class="hero__headline">
+          <span class="hero__word">Engineering</span>
+          <span class="hero__word">You Can</span>
+          <span class="hero__word hero__word--light">Trust.</span>
+        </h1>
+        <p class="hero__tagline">Electrical · Fire &amp; Safety · Security Systems · Audit &amp; Maintenance Solutions</p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--green">CONTACT US</a>
+          <a href="#services" class="btn btn--outline">
+            OUR SERVICES
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+        <div class="partners">
+          <div class="partners__logos">
+            <span class="partner">Electrical</span>
+            <span class="partner">Fire Safety</span>
+            <span class="partner">Security</span>
+            <span class="partner">Audit</span>
+            <span class="partner">AMC</span>
+          </div>
+          <a href="#about" class="scroll-hint">
+            <span>SCROLL DOWN</span>
+            <span class="scroll-hint__circle" aria-hidden="true">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <span class="pill">About Us</span>
+        <h2 class="section__title">Professionally Managed<br />Engineering Solutions</h2>
+        <p class="section__lead">C.R. Engineers Technologies specializes in Electrical Solutions, Fire &amp; Safety Systems, Security Systems, Electrical Audits, Preventive Maintenance, and Facility Support Services for industrial, commercial, institutional, and corporate sectors.</p>
+        <p class="section__text">Under the leadership of <strong>Mr. Chandan Kumar</strong>, with extensive field experience in engineering and electrical auditing, we deliver trusted services across multiple client locations with strong safety standards and timely project completion.</p>
+        <div class="stats">
+          <div class="stat">
+            <span class="stat__num">4</span>
+            <span class="stat__label">Core service verticals</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">8+</span>
+            <span class="stat__label">Industry sectors served</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">100%</span>
+            <span class="stat__label">Safety &amp; quality focus</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vision & Mission -->
+    <section class="section section--cream">
+      <div class="container vm-grid">
+        <article class="vm-card">
+          <span class="pill">Our Vision</span>
+          <h3>To become a trusted engineering partner</h3>
+          <p>Delivering innovative, safe, and sustainable technical solutions with professional excellence.</p>
+        </article>
+        <article class="vm-card">
+          <span class="pill">Our Mission</span>
+          <ul class="check-list">
+            <li>High-quality engineering services with safety and reliability</li>
+            <li>Long-term client relationships through professional support</li>
+            <li>Continuous improvement of operational standards</li>
+            <li>Projects delivered on time and within quality parameters</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <span class="pill">Our Core Services</span>
+        <h2 class="section__title">Complete Technical<br />Support Under One Roof</h2>
+        <div class="features">
+          <article class="feature-card">
+            <span class="feature-card__num">01</span>
+            <h3>Electrical Services</h3>
+            <ul class="service-list">
+              <li>Electrical Audit &amp; Inspection</li>
+              <li>HT/LT Panel Inspection</li>
+              <li>Load Analysis &amp; Energy Monitoring</li>
+              <li>Earthing &amp; Lightning Protection</li>
+              <li>DG Set Inspection &amp; Maintenance</li>
+              <li>Cable Testing &amp; Thermal Inspection</li>
+              <li>Power Distribution Solutions</li>
+              <li>Electrical Safety Compliance</li>
+            </ul>
+          </article>
+          <article class="feature-card">
+            <span class="feature-card__num">02</span>
+            <h3>Fire &amp; Safety Systems</h3>
+            <ul class="service-list">
+              <li>Fire Alarm System Installation</li>
+              <li>Fire Extinguisher Inspection &amp; Maintenance</li>
+              <li>Emergency Lighting Systems</li>
+              <li>Fire Safety Audit</li>
+              <li>Hydrant &amp; Sprinkler System Support</li>
+            </ul>
+          </article>
+          <article class="feature-card">
+            <span class="feature-card__num">03</span>
+            <h3>Security Systems</h3>
+            <ul class="service-list">
+              <li>CCTV Surveillance Systems</li>
+              <li>Access Control Systems</li>
+              <li>Biometric Attendance Systems</li>
+              <li>Security Monitoring Solutions</li>
+            </ul>
+          </article>
+          <article class="feature-card">
+            <span class="feature-card__num">04</span>
+            <h3>Facility &amp; Maintenance</h3>
+            <ul class="service-list">
+              <li>Preventive Electrical Maintenance</li>
+              <li>Breakdown Maintenance Services</li>
+              <li>Facility Technical Support</li>
+              <li>Site Inspection &amp; Reporting</li>
+              <li>Annual Maintenance Contracts (AMC)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Industries -->
+    <section class="section section--cream">
+      <div class="container">
+        <span class="pill">Industries We Serve</span>
+        <h2 class="section__title">Sectors We<br />Support Nationwide</h2>
+        <div class="tags">
+          <span class="tag">Corporate Offices</span>
+          <span class="tag">Industrial Plants</span>
+          <span class="tag">Educational Institutions</span>
+          <span class="tag">Commercial Buildings</span>
+          <span class="tag">Retail Stores</span>
+          <span class="tag">Warehouses &amp; Logistics</span>
+          <span class="tag">IT &amp; Data Centers</span>
+          <span class="tag">Government &amp; Semi-Govt. Projects</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <span class="pill">Major Projects</span>
+        <h2 class="section__title">Proven Field<br />Execution Experience</h2>
+        <div class="projects-grid">
+          <article class="project-block">
+            <h3>Electrical Audit Works</h3>
+            <ul class="service-list">
+              <li>Retail Outlet — UP State Office</li>
+              <li>Retail Outlet — Bihar State Office</li>
+              <li>Retail Outlet — Rajasthan State Office</li>
+              <li>Retail Outlet — Punjab State Office</li>
+              <li>Retail Outlet — Gujarat Division Office</li>
+              <li>Retail Outlet — Lucknow Divisional Office Building</li>
+            </ul>
+          </article>
+          <article class="project-block">
+            <h3>Site Engineering &amp; Maintenance</h3>
+            <ul class="service-list">
+              <li>DG Set Inspection &amp; Maintenance</li>
+              <li>UPS &amp; Servo Stabilizer Inspection</li>
+              <li>Electrical Safety Improvement Works</li>
+              <li>Earthing Pit Inspection &amp; Rectification</li>
+              <li>Preventive Maintenance Activities</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why choose us -->
+    <section class="section section--cream">
+      <div class="container">
+        <span class="pill">Why Choose Us</span>
+        <h2 class="section__title">Your Trusted<br />Engineering Partner</h2>
+        <div class="why-grid">
+          <span class="why-item">✔ Experienced Technical Team</span>
+          <span class="why-item">✔ Professional Site Execution</span>
+          <span class="why-item">✔ Strong Safety Standards</span>
+          <span class="why-item">✔ Timely Project Completion</span>
+          <span class="why-item">✔ Quality Engineering Solutions</span>
+          <span class="why-item">✔ Reliable Maintenance Support</span>
+          <span class="why-item">✔ Client-Focused Approach</span>
+          <span class="why-item">✔ Cost-Effective Services</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quality & strengths -->
+    <section class="section">
+      <div class="container split-content">
+        <div>
+          <span class="pill">Quality &amp; Safety</span>
+          <h2 class="section__title">Our Highest<br />Priorities</h2>
+          <p class="section__lead">All projects are executed according to standard engineering practices and safety guidelines. We ensure systematic inspection, documentation, and reporting for every assignment.</p>
+        </div>
+        <div>
+          <span class="pill">Our Strengths</span>
+          <ul class="check-list check-list--dark">
+            <li>Skilled Engineering Workforce</li>
+            <li>Fast Response &amp; Technical Support</li>
+            <li>Multi-Site Coordination Capability</li>
+            <li>Audit Documentation Expertise</li>
+            <li>Reliable Vendor &amp; Service Network</li>
+            <li>Strong Field Execution Experience</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container" style="margin-top: 2.5rem;">
+        <p class="section__text section__text--center">We build long-term professional relationships through transparency, commitment, and quality service delivery — exceeding client expectations through continuous improvement and dependable engineering support.</p>
+      </div>
+    </section>
+
+    <!-- Instruments -->
+    <section class="section section--instruments" id="instruments" aria-label="Instruments showcase">
+      <div class="container instruments-intro">
+        <span class="pill pill--light">Our Instruments</span>
+        <h2 class="section__title section__title--light">Precision Tools<br />For Every Audit</h2>
+        <p class="instruments-intro__lead">Professional-grade instruments and equipment used for electrical testing, safety inspection, and site engineering across our audit and maintenance projects.</p>
+      </div>
+
+      <div class="instrument-showcase">
+        <div class="instrument-showcase__top">
+          <div class="instrument-showcase__counter" aria-live="polite">
+            <span class="instrument-showcase__current">01</span>
+            <span class="instrument-showcase__sep">/</span>
+            <span class="instrument-showcase__total">08</span>
+          </div>
+          <div class="instrument-showcase__controls">
+            <button type="button" class="instrument-showcase__btn instrument-showcase__btn--prev" aria-label="Previous instrument">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <button type="button" class="instrument-showcase__btn instrument-showcase__btn--next" aria-label="Next instrument">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="instrument-slider" data-instrument-slider>
+          <div class="instrument-slider__track">
+            <article class="instrument-slide is-active" data-slide="0">
+              <div class="instrument-slide__visual">
+<div class="instrument-slide__image-wrap">
+                  <img class="instrument-slide__image" src="Photos/ThermalCamera.png" alt="Thermal Camera" />
+                </div>
+              </div>
+              <div class="instrument-slide__info">
+                <span class="instrument-slide__tag">Thermal Inspection</span>
+                <h3 class="instrument-slide__name">Thermal Camera</h3>
+                <p class="instrument-slide__desc">Detects hotspots in panels, cables, and equipment for preventive maintenance and safety compliance.</p>
+                <ul class="instrument-slide__features">
+                  <li>Non-contact temperature scanning</li>
+                  <li>Hotspot detection in HT/LT panels</li>
+                  <li>Detailed inspection reporting support</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="instrument-slide" data-slide="1">
+              <div class="instrument-slide__visual">
+<div class="instrument-slide__image-wrap">
+                  <img class="instrument-slide__image" src="Photos/ClamMeter.png" alt="Clamp Meter" />
+                </div>
+              </div>
+              <div class="instrument-slide__info">
+                <span class="instrument-slide__tag">Electrical Testing</span>
+                <h3 class="instrument-slide__name">Clamp Meter</h3>
+                <p class="instrument-slide__desc">Measures AC/DC current without breaking the circuit — essential for load analysis and panel inspections.</p>
+                <ul class="instrument-slide__features">
+                  <li>Non-invasive current measurement</li>
+                  <li>Load analysis during audits</li>
+                  <li>Portable field-ready design</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="instrument-slide" data-slide="2">
+              <div class="instrument-slide__visual">
+<div class="instrument-slide__image-wrap">
+                  <img class="instrument-slide__image" src="Photos/LuxMeter.png" alt="Lux Meter" />
+                </div>
+              </div>
+              <div class="instrument-slide__info">
+                <span class="instrument-slide__tag">Lighting Audit</span>
+                <h3 class="instrument-slide__name">Lux Meter</h3>
+                <p class="instrument-slide__desc">Measures illumination levels to verify emergency lighting and workplace lighting compliance.</p>
+                <ul class="instrument-slide__features">
+                  <li>Light intensity measurement</li>
+                  <li>Emergency lighting verification</li>
+                  <li>Compliance with safety standards</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="instrument-slide" data-slide="3">
+              <div class="instrument-slide__visual">
+<div class="instrument-slide__image-wrap">
+                  <img class="instrument-slide__image" src="Photos/EarthResistenceTester.png" alt="Earth Resistance Tester" />
+                </div>
+              </div>
+              <div class="instrument-slide__info">
+                <span class="instrument-slide__tag">Earthing &amp; Safety</span>
+                <h3 class="instrument-slide__name">Earth Resistance Tester</h3>
+                <p class="instrument-slide__desc">Measures earthing pit resistance and verifies grounding systems meet safety standards.</p>
+                <ul class="instrument-slide__features">
+                  <li>Earthing pit resistance measurement</li>
+                  <li>Grounding system verification</li>
+                  <li>Compliance with safety guidelines</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="instrument-slide" data-slide="4">
+              <div class="instrument-slide__visual">
+<div class="instrument-slide__image-wrap">
+                  <img class="instrument-slide__image" src="Photos/ElectricalPanelCheck.png" alt="Electrical Panel Check" />
+                </div>
+              </div>
+              <div class="instrument-slide__info">
+                <span class="instrument-slide__tag">Panel Inspection</span>
+                <h3 class="instrument-slide__name">Electrical Panel Check</h3>
+                <p class="instrument-slide__desc">Ammeter, Voltmeter, Indicating lamp &amp; emergency shut down button checking.</p>
+                <ul class="instrument-slide__features">
+                  <li>Ammeter checking</li>
+                  <li>Voltmeter checking</li>
+                  <li>Indicating lamp checking</li>
+                  <li>Emergency shut down button checking</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="instrument-slide" data-slide="5">
+              <div class="instrument-slide__visual">
+<div class="instrument-slide__image-wrap">
+                  <img class="instrument-slide__image" src="Photos/DG-SET.png" alt="DG Set" />
+                </div>
+              </div>
+              <div class="instrument-slide__info">
+                <span class="instrument-slide__tag">Power Backup</span>
+                <h3 class="instrument-slide__name">DG Set</h3>
+                <p class="instrument-slide__desc">Diesel generator inspection and maintenance for reliable backup power at commercial and industrial sites.</p>
+                <ul class="instrument-slide__features">
+                  <li>DG set inspection &amp; maintenance</li>
+                  <li>Backup power system verification</li>
+                  <li>Preventive maintenance support</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="instrument-slide" data-slide="6">
+              <div class="instrument-slide__visual">
+<div class="instrument-slide__image-wrap">
+                  <img class="instrument-slide__image" src="Photos/DispencingUnit.png" alt="Dispensing Unit" />
+                </div>
+              </div>
+              <div class="instrument-slide__info">
+                <span class="instrument-slide__tag">Retail &amp; Site Audit</span>
+                <h3 class="instrument-slide__name">Dispensing Unit</h3>
+                <p class="instrument-slide__desc">Electrical and safety inspection of dispensing units at retail outlets and fuel stations.</p>
+                <ul class="instrument-slide__features">
+                  <li>Retail outlet electrical audit</li>
+                  <li>Dispensing unit safety check</li>
+                  <li>Site compliance reporting</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="instrument-slide" data-slide="7">
+              <div class="instrument-slide__visual">
+<div class="instrument-slide__image-wrap">
+                  <img class="instrument-slide__image" src="Photos/CompleteElectricalRoom.png" alt="Complete Electrical Room" />
+                </div>
+              </div>
+              <div class="instrument-slide__info">
+                <span class="instrument-slide__tag">Facility Audit</span>
+                <h3 class="instrument-slide__name">Complete Electrical Room</h3>
+                <p class="instrument-slide__desc">Checking of electrical room &amp; standard electrical panel as per IOCL norms.</p>
+                <ul class="instrument-slide__features">
+                  <li>Electrical room inspection</li>
+                  <li>Standard electrical panel checking</li>
+                  <li>Compliance as per IOCL norms</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="instrument-showcase__thumbs" role="tablist" aria-label="Select instrument">
+          <button type="button" class="instrument-thumb is-active" role="tab" aria-selected="true" data-thumb="0">
+            <span class="instrument-thumb__label">Thermal</span>
+          </button>
+          <button type="button" class="instrument-thumb" role="tab" aria-selected="false" data-thumb="1">
+            <span class="instrument-thumb__label">Clamp</span>
+          </button>
+          <button type="button" class="instrument-thumb" role="tab" aria-selected="false" data-thumb="2">
+            <span class="instrument-thumb__label">Lux</span>
+          </button>
+          <button type="button" class="instrument-thumb" role="tab" aria-selected="false" data-thumb="3">
+            <span class="instrument-thumb__label">Earth</span>
+          </button>
+          <button type="button" class="instrument-thumb" role="tab" aria-selected="false" data-thumb="4">
+            <span class="instrument-thumb__label">Panel</span>
+          </button>
+          <button type="button" class="instrument-thumb" role="tab" aria-selected="false" data-thumb="5">
+            <span class="instrument-thumb__label">DG Set</span>
+          </button>
+          <button type="button" class="instrument-thumb" role="tab" aria-selected="false" data-thumb="6">
+            <span class="instrument-thumb__label">Dispensing</span>
+          </button>
+          <button type="button" class="instrument-thumb" role="tab" aria-selected="false" data-thumb="7">
+            <span class="instrument-thumb__label">Elec. Room</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--dark" id="contact">
+      <div class="container help-block help-block--single">
+        <div class="help-block__text">
+          <span class="pill pill--light">Contact Details</span>
+          <h2 class="section__title section__title--light">Get In Touch<br />With Our Team</h2>
+          <div class="contact-details">
+            <p><strong>C.R. ENGINEERS TECHNOLOGIES</strong></p>
+            <p>Proprietor: Mr. Chandan Kumar</p>
+            <p><a href="tel:+918271999546">Mobile: +91-8271999546</a></p>
+            <p><a href="mailto:crengineerstechnologies1088@gmail.com">crengineerstechnologies1088@gmail.com</a></p>
+            <p>Address: F62/9, Suman Colony, Chhatarpur Extension, New Delhi-110074</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Declaration -->
+    <section class="cta-band">
+      <div class="container cta-band__inner">
+        <h2>Professional service standards,<br />technical excellence, dedicated support.</h2>
+        <p>We assure our clients of dependable engineering and maintenance solutions for every requirement.</p>
+        <p class="cta-band__sign"><strong>For C.R. Engineers Technologies</strong><br />Mr. Chandan Kumar, Proprietor</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div class="footer__brand">
+          <a href="#top" class="logo logo--footer">
+            <span class="logo__icon" aria-hidden="true">
+              <img class="logo__mark" src="Photos/cret.png" alt="C.R. Engineers Technologies logo" />
+            </span>
+            <span class="logo__text"><span class="logo__hope">C.R.</span><span class="logo__divider"></span><span class="logo__rise">ENGINEERS TECHNOLOGIES</span></span>
+          </a>
+          <p>Electrical · Fire &amp; Safety · Security · Audit &amp; Maintenance Solutions</p>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Electrical</a></li>
+            <li><a href="#services">Fire &amp; Safety</a></li>
+            <li><a href="#services">Security Systems</a></li>
+            <li><a href="#services">AMC Support</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#instruments">Instruments</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:crengineerstechnologies1088@gmail.com">crengineerstechnologies1088@gmail.com</a></li>
+            <li><a href="tel:+918271999546">+91-8271999546</a></li>
+            <li>F62/9, Suman Colony, New Delhi-110074</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer__bottom">
+        <span>© 2026 C.R. Engineers Technologies. All rights reserved.</span>
+        <span>Company Profile · 21 May 2026</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
